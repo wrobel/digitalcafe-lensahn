@@ -18,7 +18,7 @@
     <header class="site-header">
       <div class="page-width header-inner">
         <a class="brand" href="index.html" aria-label="Digitalcafé Lensahn – Startseite">
-          <span class="brand-mark" aria-hidden="true">D</span>
+          <img class="brand-mark" src="favicon.svg" alt="" width="40" height="40">
           <span>Digitalcafé Lensahn</span>
         </a>
         <a class="header-link" href="#erster-termin">Erster Termin</a>
@@ -38,27 +38,39 @@
           <a class="button" href="#erster-termin">Termin ansehen</a>
         </div>
 
-        <aside class="event-card" id="erster-termin" aria-labelledby="termin-titel">
-          <p class="event-kicker">Erster Termin</p>
-          <h2 id="termin-titel">
-            <time datetime="2026-08-31">Montag, 31. August 2026</time>
-          </h2>
-          <dl class="event-details">
-            <div>
-              <dt>Uhrzeit</dt>
-              <dd><time datetime="2026-08-31T16:00:00+02:00">16:00</time>–<time datetime="2026-08-31T17:30:00+02:00">17:30 Uhr</time></dd>
-            </div>
-            <div>
-              <dt>Ort</dt>
-              <dd>Wird noch bekanntgegeben</dd>
-            </div>
-            <div>
-              <dt>Anmeldung</dt>
-              <dd>Nicht erforderlich</dd>
-            </div>
-          </dl>
-          <p class="event-note">Danach sind zweiwöchentliche Termine am Montag geplant.</p>
-        </aside>
+        <div class="hero-side">
+          <figure class="hero-visual">
+            <img
+              src="images/digitalcafe-gemeinsam.webp"
+              width="1400"
+              height="934"
+              alt="Zwei ältere Menschen schauen gemeinsam mit einer Helferin auf ein Tablet."
+              fetchpriority="high"
+            >
+          </figure>
+
+          <aside class="event-card" id="erster-termin" aria-labelledby="termin-titel">
+            <p class="event-kicker">Erster Termin</p>
+            <h2 id="termin-titel">
+              <time datetime="2026-08-31">Montag, 31. August 2026</time>
+            </h2>
+            <dl class="event-details">
+              <div>
+                <dt>Uhrzeit</dt>
+                <dd><time datetime="2026-08-31T16:00:00+02:00">16:00</time>–<time datetime="2026-08-31T17:30:00+02:00">17:30 Uhr</time></dd>
+              </div>
+              <div>
+                <dt>Ort</dt>
+                <dd>Wird noch bekanntgegeben</dd>
+              </div>
+              <div>
+                <dt>Anmeldung</dt>
+                <dd>Nicht erforderlich</dd>
+              </div>
+            </dl>
+            <p class="event-note">Danach sind zweiwöchentliche Termine am Montag geplant.</p>
+          </aside>
+        </div>
       </section>
 
       <section class="section section-soft" aria-labelledby="worum-geht-es">
@@ -96,6 +108,15 @@
         <div>
           <p class="eyebrow">So funktioniert es</p>
           <h2 id="ablauf">Mitbringen, fragen, selbst ausprobieren</h2>
+          <figure class="process-photo">
+            <img
+              src="images/digitalcafe-geraete.webp"
+              width="1000"
+              height="750"
+              alt="Zwei Menschen probieren gemeinsam etwas auf einem Tablet aus."
+              loading="lazy"
+            >
+          </figure>
         </div>
         <div class="prose">
           <p>

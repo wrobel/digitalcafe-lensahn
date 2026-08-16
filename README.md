@@ -31,3 +31,9 @@ Anschließend <http://localhost:8000> öffnen.
 - keine Cookies, Analyse oder externen Einbettungen
 - keine externen Schriftarten
 - Kerninformationen nach WCAG 2.2 AA gestaltet
+
+## Bildmaterial
+
+Die beiden für das Projekt KI-generierten Fotomotive liegen optimiert als WebP
+unter `images/`. Sie werden direkt mit der Seite ausgeliefert; es werden keine
+externen Bilddienste eingebunden.
