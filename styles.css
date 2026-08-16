@@ -320,9 +320,6 @@ h3 {
 }
 
 .footer-inner {
-  display: grid;
-  grid-template-columns: minmax(0, 0.65fr) minmax(0, 1fr);
-  gap: 2rem;
   padding-block: 2.25rem;
   font-size: 0.95rem;
 }
@@ -331,14 +328,9 @@ h3 {
   margin: 0;
 }
 
-.hosting-note {
-  color: var(--color-ink-soft);
-}
-
 @media (max-width: 52rem) {
   .hero,
-  .split,
-  .footer-inner {
+  .split {
     grid-template-columns: 1fr;
   }
 
