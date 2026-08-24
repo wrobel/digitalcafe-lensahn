@@ -374,12 +374,6 @@ h3 {
   overflow-wrap: anywhere;
 }
 
-.contact-action p {
-  margin: 1rem 0 0;
-  color: var(--color-ink-soft);
-  text-align: center;
-}
-
 .section-dark {
   background: var(--color-ink);
   color: var(--color-white);
