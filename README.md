@@ -13,6 +13,23 @@ python3 -m http.server 8000
 
 Anschließend <http://localhost:8000> öffnen.
 
+Alternativ vom übergeordneten Politik-Projekt aus:
+
+```bash
+python3 -m http.server 8000 --directory repos/digitalcafe-lensahn
+```
+
+Zum Prüfen im Browser:
+
+1. Termin, Ort und Themen lesen und alle internen Sprunglinks anklicken.
+2. Das Fenster auf eine schmale Smartphonebreite verkleinern; es darf kein
+   horizontaler Scrollbalken erscheinen.
+3. Mit der Tabulatortaste durch Links und Schaltflächen gehen; der Fokus muss
+   immer sichtbar sein.
+4. Auf 200 Prozent zoomen; Text und E-Mail-Adresse müssen lesbar bleiben.
+5. Prüfen, dass die Kontaktadresse `gunnar@digitalcafe.lensahn.org` sichtbar
+   und über die Schaltfläche erreichbar ist.
+
 ## Mit GitHub Pages veröffentlichen
 
 1. Änderungen nach `main` pushen.
