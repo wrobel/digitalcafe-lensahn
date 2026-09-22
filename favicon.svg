@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Sprechblase">
-  <circle cx="32" cy="32" r="32" fill="#b84f43"/>
-  <path fill="#ffffff" d="M15 16h34a5 5 0 0 1 5 5v22a5 5 0 0 1-5 5H31l-11 8v-8h-5a5 5 0 0 1-5-5V21a5 5 0 0 1 5-5Z"/>
-  <circle cx="23" cy="32" r="3.4" fill="#172b43"/>
-  <circle cx="32" cy="32" r="3.4" fill="#172b43"/>
-  <circle cx="41" cy="32" r="3.4" fill="#172b43"/>
-</svg>
