@@ -91,6 +91,7 @@ a:focus-visible {
   width: 2.5rem;
   height: 2.5rem;
   flex: 0 0 auto;
+  border-radius: 0.5rem;
 }
 
 .header-link {
