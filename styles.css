@@ -310,6 +310,54 @@ h3 {
   color: var(--color-ink-soft);
 }
 
+.schedule-note {
+  max-width: 48rem;
+  margin: 1.5rem 0 0;
+  padding: 1rem 1.25rem;
+  border-left: 0.4rem solid var(--color-accent);
+  border-radius: 0 var(--radius-small) var(--radius-small) 0;
+  background: var(--color-white);
+}
+
+.materials {
+  display: grid;
+  grid-template-columns: minmax(0, 0.85fr) minmax(18rem, 1fr);
+  gap: clamp(2rem, 8vw, 7rem);
+  scroll-margin-top: 1rem;
+}
+
+.materials > div:first-child {
+  max-width: 38rem;
+}
+
+.material-card {
+  align-self: start;
+  padding: clamp(1.5rem, 4vw, 2.25rem);
+  border: 1px solid var(--color-line);
+  border-radius: var(--radius-large);
+  background: var(--color-white);
+  box-shadow: var(--shadow-card);
+}
+
+.material-card p {
+  color: var(--color-ink-soft);
+}
+
+.material-date {
+  margin-top: 0;
+  font-weight: 800;
+}
+
+.button-secondary {
+  margin-top: 0.5rem;
+  background: var(--color-white);
+  color: var(--color-ink);
+}
+
+.button-secondary:hover {
+  color: var(--color-white);
+}
+
 .split {
   display: grid;
   grid-template-columns: minmax(0, 0.8fr) minmax(0, 1fr);
@@ -412,7 +460,8 @@ h3 {
 @media (max-width: 52rem) {
   .hero,
   .split,
-  .contact {
+  .contact,
+  .materials {
     grid-template-columns: 1fr;
   }
 
